@@ -1,0 +1,56 @@
+* {
+  background-color: rgb(121, 163, 61);
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+h1,
+.recipe,
+h2 {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+h1,
+h2 {
+  background-color: rgb(242, 91, 10);
+}
+
+h1 {
+  font-size: 48px;
+  height: 100px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 10px 50px;
+}
+
+li {
+  font-size: 24px;
+  line-height: 2em;
+  display: list-item;
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 1em;
+}
+.recipe {
+  background-color: rgb(241, 172, 24);
+  font-size: 36px;
+  height: 3em;
+  border: 2px dashed #e69151;
+}
+
+p {
+  font-size: 24px;
+}
