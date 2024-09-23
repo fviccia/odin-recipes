@@ -1,6 +1,8 @@
 * {
-  background-color: rgb(121, 163, 61);
   font-family: Verdana, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(121, 163, 61);
 }
 
 a {
@@ -14,11 +16,6 @@ h2 {
   text-align: center;
   height: 100px;
   line-height: 100px;
-}
-
-h1,
-h2 {
-  background-color: rgb(242, 91, 10);
 }
 
 h1 {
@@ -45,13 +42,31 @@ li {
   margin-left: 1em;
 }
 .recipe {
+  width: 50%;
   background-color: rgb(241, 172, 24);
   font-size: 36px;
-  height: 3em;
   border: 2px dashed #e69151;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 p {
   font-size: 24px;
+}
+
+.recipe-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.title-container {
+  margin: 20px auto;
+  width: 75%;
+  background-color: rgb(242, 91, 10);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
 }
